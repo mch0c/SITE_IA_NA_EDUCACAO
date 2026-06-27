@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA na Educação - Home</title>
+    <!-- Link para o arquivo de estilo compartilhado -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte moderna do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO INTERLIGADO -->
+    <header>
+        <div class="logo">EDUCA<span>IA</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="adaptativo.html">Aprendizado Adaptativo</a></li>
+                <li><a href="plataformas.html">Plataformas</a></li>
+                <li><a href="etica.html">Ética & Desafios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BANNER PRINCIPAL (HERO) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>O Futuro da Aprendizagem: A Inteligência Artificial na Educação</h1>
+            <p>Descubra como os algoritmos inteligentes estão revolucionando as salas de aula e moldando uma nova era de ensino personalizado.</p>
+        </div>
+    </section>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">
+        
+        <!-- O QUE É E PANORAMA -->
+        <article class="main-content">
+            <h2>O que é Inteligência Artificial na Educação?</h2>
+            <p>A Inteligência Artificial (IA) na educação refere-se ao uso de sistemas computacionais avançados e algoritmos para simular capacidades cognitivas humanas no ambiente de ensino. Não se trata de substituir os professores, mas de fornecer ferramentas capazes de analisar dados, identificar padrões e automatizar tarefas repetitivas.</p>
+            
+            <h2>O Panorama Atual</h2>
+            <p>Atualmente, a IA deixou de ser uma promessa futurista e se tornou uma realidade nas instituições de ensino pelo mundo. Desde correções automatizadas de provas até tutores virtuais que funcionam 24 horas por dia, a tecnologia está redefinindo a velocidade com que o conhecimento é transmitido e absorvido.</p>
+
+            <h2>Por que a IA está transformando o ensino?</h2>
+            <p>O modelo tradicional de ensino "um tamanho serve para todos" tem limitações claras. A IA transforma isso ao permitir a personalização em massa. Ela entende o ritmo de cada estudante, oferecendo caminhos de aprendizagem únicos para que ninguém fique para trás e ninguém se sinta entediado.</p>
+        </article>
+
+        <hr class="divisor">
+
+        <!-- RESUMO DAS OUTRAS PÁGINAS (GUIA DE NAVEGAÇÃO) -->
+        <section class="resumos-section">
+            <h2>Explore o nosso Mini-Site</h2>
+            <p class="subtitulo-secao">Veja os temas que preparamos para você se aprofundar nessa revolução:</p>
+            
+            <div class="cards-container">
+                <!-- Card Página 2 -->
+                <div class="card">
+                    <h3>💡 Aprendizado Adaptativo</h3>
+                    <p>Entenda como os sistemas moldam as aulas e exercícios de acordo com as forças e fraquezas de cada aluno em tempo real.</p>
+                    <a href="adaptativo.html" class="btn-card">Ler sobre isso</a>
+                </div>
+
+                <!-- Card Página 3 -->
+                <div class="card">
+                    <h3>📱 Plataformas com IA</h3>
+                    <p>Conheça ferramentas reais que você provavelmente já usa, como Khan Academy e Duolingo, e veja como elas usam IA por trás dos panos.</p>
+                    <a href="plataformas.html" class="btn-card">Ver plataformas</a>
+                </div>
+
+                <!-- Card Página 4 -->
+                <div class="card">
+                    <h3>⚠️ Ética e Desafios</h3>
+                    <p>O impacto do ChatGPT, os riscos de fraude acadêmica, plágio, privacidade de dados e qual será o futuro dos professores.</p>
+                    <a href="etica.html" class="btn-card">Discutir ética</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ PADRÃO -->
+    <footer>
+        <p>&copy; 2026 - Mini-site sobre IA na Educação. Desenvolvido por Luis Gustavo, Maria Clara e Matheus Filho.</p>
+    </footer>
+
+</body>
+</html>

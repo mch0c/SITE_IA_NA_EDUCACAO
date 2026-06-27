@@ -1,4 +1,4 @@
-/* RESET DE ESTILOS (Para limpar as margens padrão do navegador) */
+/* RESET DE ESTILOS */
 * {
     margin: 0;
     padding: 0;
@@ -8,21 +8,22 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    background-color: #f4f7f6;
-    color: #333;
+    background-color: #f8fafc;
+    color: #1e293b;
 }
 
-/* ESTILIZAÇÃO DO CABEÇALHO (HEADER) */
+/* HEADER & MENU */
 header {
-    background-color: #1a252f;
+    background-color: #0f172a;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 20px 8%;
     position: sticky;
     top: 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 100;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
 }
 
 .logo {
@@ -31,7 +32,7 @@ header {
 }
 
 .logo span {
-    color: #3498db;
+    color: #38bdf8;
 }
 
 nav ul {
@@ -40,69 +41,142 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #cbd5e1;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav ul li a:hover, nav ul li a.active {
-    color: #3498db; /* Cor azul quando passa o mouse ou está na página ativa */
+    color: #38bdf8;
 }
 
-/* CONTAINER DE CONTEÚDO */
-.container {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-/* SEÇÃO HERO (DESTAQUE) */
+/* BANNER PRINCIPAL (HERO) */
 .hero {
-    background: linear-gradient(135deg, #2c3e50, #3498db);
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #3b82f6);
     color: white;
-    padding: 60px 40px;
-    border-radius: 8px;
-    margin-bottom: 40px;
+    padding: 100px 20px;
     text-align: center;
 }
 
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 18px;
+.hero-content {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* SEÇÕES GENÉRICAS */
-h2 {
-    color: #2c3e50;
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #93c5fd;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* CONTEÚDO DA HOME */
+.main-content h2 {
+    color: #1e3a8a;
+    margin: 30px 0 15px 0;
+    font-size: 28px;
+}
+
+.main-content p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #334155;
+    text-align: justify;
+}
+
+.divisor {
+    border: 0;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 50px 0;
+}
+
+/* SEÇÃO DE CARDS (RESUMOS) */
+.resumos-section {
+    margin-top: 30px;
+}
+
+.resumos-section h2 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 28px;
+}
+
+.subtitulo-secao {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Garante que funcione no celular */
+}
+
+.card {
+    background: white;
+    flex: 1;
+    min-width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.06);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h3 {
+    color: #0f172a;
     margin-bottom: 15px;
 }
 
-.introducao {
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.card p {
+    font-size: 15px;
+    color: #475569;
+    margin-bottom: 20px;
 }
 
-/* RODAPÉ (FOOTER) */
-footer {
-    background-color: #1a252f;
-    color: #7f8c8d;
+.btn-card {
+    display: inline-block;
     text-align: center;
-    padding: 20px;
-    position: relative;
-    width: 100%;
-    margin-top: 40px;
+    background-color: #3b82f6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.btn-card:hover {
+    background-color: #2563eb;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0f172a;
+    color: #64748b;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 60px;
     font-size: 14px;
 }

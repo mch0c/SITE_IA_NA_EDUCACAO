@@ -13,7 +13,8 @@ body {
 }
 
 body ul li {
-    margin-left: 60px;
+    padding-bottom: 15px;
+    margin-left: 40px;
 }
 
 /* HEADER & MENU */
@@ -45,6 +46,7 @@ nav ul {
 }
 
 nav ul li {
+    padding-bottom: 0px;
     margin-left: 25px;
 }
 

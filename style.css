@@ -106,6 +106,19 @@ nav ul li a:hover, nav ul li a.active {
     text-align: justify;
 }
 
+.references h2 {
+    color: #1c242f;
+    margin: 30px 0 15px 0;
+    font-size: 18px;
+}
+
+.references p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #334155;
+    text-align: justify;
+}
+
 .divisor {
     border: 0;
     height: 1px;

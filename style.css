@@ -12,6 +12,10 @@ body {
     color: #1e293b;
 }
 
+body ul li {
+    margin-left: 60px;
+}
+
 /* HEADER & MENU */
 header {
     background-color: #0f172a;
